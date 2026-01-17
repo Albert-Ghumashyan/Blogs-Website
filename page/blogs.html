@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blogs</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/uikit.min.css" />
+
+    <link rel="stylesheet" href="../css/blog.css">
+</head>
+<body>
+  <!-----------------  body border  ----------------->
+  <div class="borderLeft noneBorder"></div>
+  <div class="borderTop noneBorder" ></div>
+  <div class="borderRight noneBorder"></div>
+  <div class="borderBottom noneBorder"></div>
+
+  <!-----------------  menu open buttons ----------------->
+  <div class="buton1Block noneBorder">
+    <img src="../img/oshin.png" alt="">
+  </div>
+  <div class="buton2Block noneBorder">
+    <i class="fa-solid fa-bars"></i>
+  </div>
+
+  <!-----------------  menu  ----------------->
+  <nav class="menu">
+    <div class="menuBlock">
+      <a href="../page/blogs.html" class="menuLogo"><img src="../img/menuLogo.png" alt=""></a>
+      <ul>
+        <li style="--i:1;">
+          <a href="../index.html" >WORK</a>
+        </li>
+        <li style="--i:2;">
+          <a href="../page/about.html">ABOUT US</a>
+        </li>
+        <li style="--i:3;">
+          <a href="../page/blogs.html" class="activeMenuItem">BLOG</a>
+        </li>
+        <li style="--i:4;">
+          <a href="../page/contact.html">CONTACT US</a>
+        </li>
+      </ul>
+      <div class="closeBtn">
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile_nav">
+    <div class="nav_block">
+      <a href="../index.html"><img src="../img/menuLogo.png" alt=""></a>
+        <div class="mobile_menu_btn">
+          <span class="hamburger_btn_item line1"></span>
+          <span class="hamburger_btn_item line2"></span>
+          <span class="hamburger_btn_item line3"></span>
+        </div>
+    </div>
+    <div class="mbile_menu">
+       <ul>
+           <li><a href="../index.html">Work</a></li>
+           <li><a href="../page/about.html">About us</a></li>
+           <li><a href="../page/blogs.html">Blog</a></li>
+           <li><a href="../page/contact.html">Contact Us</a></li>
+       </ul>
+    </div>
+  </div>
+
+
+  <!----------------- top button ----------------->
+  <a href="#home" class="topBtn">
+      <i class="fa-solid fa-angle-up"></i>
+  </a>
+
+  <!-----------------  cobtainer  ----------------->
+  <div class="container" id="home">
+     <section class="sec" >
+         <div class="sec_left_side">
+              <img class="cursor_pointer blogs_img" src="../img/blog_img1.jpg" alt="">
+         </div>
+         <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_one.html">Oshine – a Creative Multipurpose WordPress theme</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Detracto erroribus et mea. Malorum temporibus vix ex. Ius ad iudico labores dissentiunt. In eruditi volumus nec nibh blandit deseruisse ne nec, vocibus albucius maluisset ex usu.</p>
+              <p class="links2 links">Under :<a href="blogs_page/branding.html" class="link"> Branding</a>,<a href="blogs_page/design.html" class="link"> Design</a></p>
+         </div>
+     </section>
+     <section class="sec blogSecMarginTop">
+          <div class="sec_left_side">
+              <img class="cursor_pointer blogs_img" src="../img/blog_img2.jpg" alt="">
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_two.html">If You Are Good At Something, Don’t Do It For Free</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Malorum temporibus vix ex.Ius ad iudico labores dissentiunt. In eruditi volumus nec, nibh blandit deseruisse ne nec, vocibus albucius maluisset ex usu.</p>
+              <p class="links2 links">Under :<a href="blogs_page/design.html" class="link"> design</a>,<a href="blogs_page/fashion.html" class="link"> fashion</a></p>
+          </div>
+     </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side sec_marginBottom">
+              <div uk-slideshow="animation: push" class="slider">
+                  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                      <ul class="uk-slideshow-items">
+                          <li>
+                              <img src="../img/blog_slider_img1.jpg" alt="" uk-cover>
+                          </li>
+                          <li>
+                              <img src="../img/blog_slider_img2.jpg" alt="" uk-cover>
+                          </li>
+                          <li>
+                              <img src="../img/mag-mock4.jpg" alt="" uk-cover>
+                          </li>
+                      </ul>
+                      <a class="uk-position-center-left uk-position-small slider_prevBtn sliderBtn" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                      <a class="uk-position-center-right uk-position-small slider_nextBtn sliderBtn" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+                  </div>
+                  <ul class="uk-slideshow-nav uk-dotnav uk-flex-center uk-margin"></ul>
+              </div>
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title padding_last"><a href="blogs_page/blogs_page_three.html">Woocommerce, WPML, Master Slider and much more</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Nihil quaeque moderatius quo ut, eu vix noster fierent postulant. Est ut magna tation, nec timeam tractatos dissentiunt id, ne integre albucius eam. Animal docendi efficiantur ut eam.</p>
+              <p class="links2 links">Under :<a href="blogs_page/fashion.html" class="link"> fashion</a>,<a href="blogs_page/mock_up.html" class="link"> mock up</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side">
+              <img class="cursor_pointer blogs_img" src="../img/blog_img3.jpg" alt="">
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_four.html">Twelve Stunning and Unique Demos</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Lorem ipsum dolor sit amet, ocurreret assentior sit id, et nam impetus numquam. Detracto erroribus et mea. Malorum temporibus vix ex.</p>
+              <p class="links2 links">Under :<a href="blogs_page/mock_up.html" class="link"> mock up</a>,<a href="blogs_page/photography.html" class="link"> photography</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side">
+              <img class="cursor_pointer blogs_img" src="../img/blog_img5.jpg" alt="">
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_five.html">Its hard not to flaunt when you do stuff like this</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Malorum temporibus vix ex.Ius ad iudico labores dissentiunt. In eruditi volumus nec, nibh blandit deseruisse ne nec, vocibus albucius maluisset ex usu.</p>
+              <p class="links2 links">Under :<a href="blogs_page/branding.html" class="link"> Branding</a>,<a href="blogs_page/photography.html" class="link"> photography</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side">
+              <img class="cursor_pointer blogs_img" src="../img/blog_img4.jpg" alt="">
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_six.html">Design is not how things looks, but how things <work></work></a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Ea mei nostrum imperdiet deterruisset, mei ludus efficiendi ei. Sea summo mazim ex, ea errem eleifend definitionem vim.Malorum temporibus vix ex.</p>
+              <p class="links2 links">Under :<a href="blogs_page/design.html" class="link"> Design</a>,<a href="blogs_page/photography.html" class="link"> photography</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+           <div class="sec2">
+               <p class="blog_sec2_p1">October 10, 2014</p>
+               <div class="sec2_icon_end_title_block">
+                   <i class="fa-solid fa-quote-right"></i>
+                   <div>
+                       <h5 class="blog_sec_title"><a href="##">Its time to change the web, one pixel at a time</a></h5>
+                       <span>- Swami</span>
+                   </div>
+               </div>
+               <p class="links2 links marginTop_last">Under :<a href="blogs_page/fashion.html" class="link"> fashion</a>,<a href="blogs_page/mock_up.html" class="link"> mock up</a></p>
+           </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side blog_vidio_block">
+              <iframe title="vimeo-player" src="https://player.vimeo.com/video/48966433?h=a908fa7885"  frameborder="0"   width="100%" height="100%" allowfullscreen></iframe>
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_seven.html">YOUTUBE & VIMEO VIDEOS</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Nihil quaeque moderatius quo ut, eu vix noster fierent postulant. Est ut magna tation, nec timeam tractatos dissentiunt id, ne integre albucius eam. Animal docendi efficiantur ut <eam class=""></eam></p>
+              <p class="links2 links">Under :<a href="blogs_page/branding.html" class="link"> Branding</a>,<a href="blogs_page/fashion.html" class="link"> fashion</a>,<a href="blogs_page/photography.html" class="link">photography</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop">
+          <div class="sec_left_side blog_vidio_block">
+              <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/170734842&color=d3bb85"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/minyu-emily-hazuki" title="Hazuki Airin" target="_blank" style="color: #cccccc; text-decoration: none;">Hazuki Airin</a> · <a href="https://soundcloud.com/minyu-emily-hazuki/i-will-piano-ver" title="I Will Piano Ver." target="_blank" style="color: #cccccc; text-decoration: none;">I Will Piano Ver.</a></div>
+          </div>
+          <div class="sec_right_side">
+              <h4 class="blog_sec_title"><a href="blogs_page/blogs_page_seven.html">Soundcloud Audio Post Format</a></h4>
+              <p class="links"><a href="" class="link">0 COMMENTS</a>&nbsp;&nbsp;/&nbsp;&nbsp;OCTOBER 10, 2014</p>
+              <p>Detracto erroribus et mea. Malorum temporibus vix ex. Ius ad iudico labores dissentiunt. In eruditi volumus nec nibh blandit deseruisse ne nec, vocibus albucius maluisset ex usu.</p>
+              <p class="links2 links">Under :<a href="blogs_page/fashion.html" class="link"> fashion</a>,<a href="blogs_page/mock_up.html" class="link"> mock up</a></p>
+          </div>
+      </section>
+      <section class="sec blogSecMarginTop bottom_margin">
+          <div class="sec2">
+              <p class="blog_sec2_p1">October 10, 2014</p>
+              <div class="sec2_icon_end_title_block">
+                  <i class="fa-solid fa-quote-right"></i>
+                  <div>
+                      <h5 class="blog_sec_title padding_last"><a href="https://themeforest.net/" target="_blank">How to make a million dollars ?</a></h5>
+                      <span>- http://www.themeforest.net</span>
+                  </div>
+              </div>
+              <p class="links2 links marginTop_last">Under :<a href="blogs_page/mock_up.html" class="link"> mock up</a>,<a href="blogs_page/photography.html" class="link"> photography</a></p>
+          </div>
+      </section>
+  </div>
+
+  <div class="zoom_block">
+      <div class="zoom">
+          <div>
+              <i class="fa-solid fa-xmark blogs_zoom_img_close"></i>
+              <img src="" class = "img_zoom" alt="">
+          </div>
+      </div>
+  </div>
+
+
+
+  <script src="https://kit.fontawesome.com/1f21eb1afe.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+  <script src="../js/uikit.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
